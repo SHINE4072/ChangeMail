@@ -1,0 +1,159 @@
+.App {
+  text-align: center;
+}
+/* 기기마다 적용법 vw(view width), vh 사용 */
+/* .box {
+  box-sizing: border-box;
+} */
+body {
+  width: 590px;
+}
+.Title {
+  display: flex;
+  justify-content: center;
+  background: black;
+  width: 100%;
+  color: white;
+}
+
+.set {
+  display: flex;
+  justify-content: center;
+  margin-right: 30px;
+  margin-left: 30px;
+  background-color: gray;
+  border-radius: 5px;
+  top: 30px;
+  position: relative;
+  box-sizing: border-box;
+  width: 530px;
+  height: 70px;
+  font-size: 30px;
+}
+#set_title {
+  margin: 10px 10px 10px 10px;
+}
+#set {
+  width: 180px;
+  margin: 10px 10px 10px 10px;
+  background-color: gray;
+  border: none; 
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  margin: 5px 10px 5px 0px;
+}
+#up {
+  background: url(../public/up.png) no-repeat;
+  background-size: cover;
+  width: 62px;
+  height: 30px;
+  flex-direction: row-reverse;
+}
+#down {
+  background: url(../public/down.png);
+  background-size: cover;
+  width: 62px;
+  height: 30px;
+}
+
+.SELECT_MAIL {
+  display: flex;
+  margin: 50px 30px 0px 30px;
+  width: 530px;
+  height: 250px;
+}
+
+.MailtoSend {
+  display: flex;
+  flex-direction: column;
+  background-color: gray;
+  border-radius: 5px;
+  width: 260px;
+  margin-right: 5px;
+}
+
+.MailtoGet {
+  display: flex;
+  flex-direction: column;
+  background-color: gray;
+  border-radius: 5px;
+  width: 260px;
+  margin-left: 5px;
+}
+
+.MAILS {
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  overflow-x: scroll;
+}
+
+
+input.img-NO{
+  background: url(https://i.namu.wiki/i/mMl3qzW9Ass5NzprmpE86i1ORmUQU7KXqMpjawVi1IB9YuO0cJKxBUU6XgTU09OPeu3ox-IFELLwdimec5fvMw.webp);
+  background-size: cover;
+  background-color: white;
+  width: 70px;
+  height: 70px;
+  border-radius: 3px;
+  padding: 0px 0px 0px 0px;
+  margin-right: 5px;
+}
+input.img-AD{
+  background: url(https://i.namu.wiki/i/E5Z1JIXkPWzVG8ik_fQAa390BMRnRfulvi7f37uYzSGHC-J6Lgzifnx3GbVrvbU9gga-7f6w045ErABQAnayKw.webp);
+  background-size: cover;  
+  background-color: white;
+  width: 70px;
+  height: 70px;
+  border-radius: 3px;
+  padding: 0px 0px 0px 0px;
+  margin-right: 5px;
+}
+input.img-DI{
+  background: url(https://i.namu.wiki/i/3K8pUb511PvpsounAqPSOMSX-LTXzVJC3HBMN4K__2RvZICfW9bnxBU3QwVpuLbei1Dh0KFdkBV9hnPcx5swRQ.webp);
+  background-size: cover;
+  background-color: white;
+  width: 70px;
+  height: 70px;
+  border-radius: 3px;
+  padding: 0px 0px 0px 0px;
+  margin-right: 5px;
+}
+input.img-SU{
+  background: url(https://i.namu.wiki/i/X_JFqd9DGE5yozJlQRqJAPEbviSyeeHjjiGztPBi9YmoHYkklIPMBuJcI_vvgrnP-PKGuUQGIrjGZ5TKvLAsxA.webp);
+  background-size: cover;
+  background-color: white;
+  width: 70px;
+  height: 70px;
+  padding: 0px 0px 0px 0px;
+  border-radius: 3px;
+  /* margin-right: 5px; */
+  /* margin-left: 10px; */
+}
+
+.guildbuf {
+  justify-content: center;
+  margin-right: 30px;
+  margin-left: 30px;
+  background-color: gray;
+  border-radius: 5px;
+  top: 30px;
+  position: relative;
+  box-sizing: border-box;
+  width: 530px;
+  height: 200px;
+}
+
+input.img-POP{
+  background: url(../public/유명세x.jpg) no-repeat;
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  border-radius: 3px;
+}
+
